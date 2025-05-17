@@ -1,0 +1,122 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    padding: 40px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px 40px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+    font-size: 28px;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 25px;
+}
+
+.product-form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    color: #495057;
+}
+
+.product-form span {
+    color: red;
+}
+
+.product-form input {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 18px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    transition: border 0.3s;
+    font-size: 15px;
+}
+
+.product-form input:focus {
+    border: 1px solid #007bff;
+    outline: none;
+}
+
+.product-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.product-form button:hover {
+    background-color: #0056b3;
+}
+
+.output-section {
+    margin-top: 30px;
+}
+
+.output-section h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #212529;
+}
+
+.product-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+.product-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 15px;
+    color: #495057;
+}
+
+.product-list .name {
+    font-weight: 500;
+}
+
+.product-list .price {
+    font-weight: 600;
+    color: #28a745;
+}
+
+.total {
+    font-size: 18px;
+    color: #343a40;
+    font-weight: 600;
+    text-align: right;
+}
